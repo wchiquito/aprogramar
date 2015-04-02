@@ -2,14 +2,14 @@
 	"objName": "Stage",
 	"variables": [{
 			"name": "dialogos",
-			"value": "1",
+			"value": "3",
 			"isPersistent": false
 		}],
 	"scripts": [[23,
 			8,
 			[["whenGreenFlag"],
-				["doBroadcastAndWait", "esconder_objeto"],
 				["startScene", "presentacion"],
+				["doBroadcastAndWait", "esconder_objeto"],
 				["doUntil",
 					["&", [">", ["answer"], "0"], ["<", ["answer"], "11"]],
 					[["doAsk", "¿Tiempo de espera para los diálogos? (tiempo en segundos entre 1 y 10)"]]],
@@ -110,7 +110,7 @@
 					"rotationCenterY": 64
 				}],
 			"currentCostumeIndex": 0,
-			"scratchX": 249.99999999999676,
+			"scratchX": 218.99999999999852,
 			"scratchY": 162,
 			"scale": 0.15000000000000022,
 			"direction": 90,
@@ -213,10 +213,10 @@
 					"rotationCenterX": 68,
 					"rotationCenterY": 154
 				}],
-			"currentCostumeIndex": 5,
-			"scratchX": 35,
+			"currentCostumeIndex": 0,
+			"scratchX": -85,
 			"scratchY": -2,
-			"scale": 0.5,
+			"scale": 0.45,
 			"direction": 90,
 			"rotationStyle": "leftRight",
 			"isDraggable": false,
@@ -321,7 +321,7 @@
 					"rotationCenterX": 104,
 					"rotationCenterY": 114
 				}],
-			"currentCostumeIndex": 0,
+			"currentCostumeIndex": 1,
 			"scratchX": 82,
 			"scratchY": -40,
 			"scale": 0.20000000000000015,
@@ -500,10 +500,10 @@
 		}],
 	"info": {
 		"swfVersion": "v434a",
+		"userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/41.0.2272.101 Safari\/537.36",
 		"flashVersion": "LNX 17,0,0,134",
 		"scriptCount": 43,
 		"videoOn": false,
-		"spriteCount": 8,
-		"userAgent": "Mozilla\/5.0 (X11; Linux i686) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/41.0.2272.101 Safari\/537.36"
+		"spriteCount": 8
 	}
 }
